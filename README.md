@@ -1,6 +1,6 @@
 # Roulette Game :flower_playing_cards:
 
-This project corresponds to the backend of a betting roulette, developed in [Spring Boot] (https://spring.io/), and using [Redis] (https://redis.io/) as a database engine.
+This project corresponds to the backend of a betting roulette, developed in [Spring Boot](https://spring.io/), and using [Redis](https://redis.io/) as a database engine.
 
 ## Installation / local-environment
 
@@ -28,9 +28,10 @@ cd roulette-backend
 
 ## Features
 
-### Endpoints
 
-The available endpoints correspond to: 
+Endpoints are available to play from the creation of the roulette, opening bets, placing bets, closing bets and a query of the results obtained by all bettors.
+
+#### The available endpoints correspond to: 
 
 * [/newRoullete](https://github.com/AlaskaRising/roulette-backend/blob/bfefbcf47ce38a8c51a21a6333ceceb65344d332/src/main/java/com/roulette/app/controller/RouletteController.java#L35)
 * [/getAllRoulettes](https://github.com/AlaskaRising/roulette-backend/blob/bfefbcf47ce38a8c51a21a6333ceceb65344d332/src/main/java/com/roulette/app/controller/RouletteController.java#L44)
@@ -38,6 +39,13 @@ The available endpoints correspond to:
 * [/closeRoulette](https://github.com/AlaskaRising/roulette-backend/blob/bfefbcf47ce38a8c51a21a6333ceceb65344d332/src/main/java/com/roulette/app/controller/RouletteController.java#L60)
 * [/placeBet](https://github.com/AlaskaRising/roulette-backend/blob/bfefbcf47ce38a8c51a21a6333ceceb65344d332/src/main/java/com/roulette/app/controller/BetController.java#L23)
 
->
+
+> A [collection](https://www.getpostman.com/collections/18db9343db9851e4e8c1) of the requests made from postman is added.
+
+
+## Roadmap
+
+* Resolve Jedi dependency issues when trying to dockerize.
+* Develop an interactive front end.
 
 :ocean: Thanks !
